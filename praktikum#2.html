@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa BOASH University</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- 1. Ubah Hello World! menjadi Profil Mahasiswa -->
+    <h1>Profil Mahasiswa</h1>
+
+    <!-- Selamat Datang di Boash -->
+    <h2>Selamat Datang di Boash</h2>
+
+    <!-- 2. Foto profil dengan lebar 150px -->
+    <img src="https://via.placeholder.com/150" alt="Foto Profil Mahasiswa" width="150" class="profile-img">
+
+    <!-- 3. Data Mahasiswa -->
+    <div class="data-mahasiswa">
+    <h3>Data Diri</h3>
+    <p><strong>Nama:</strong> Raihan adi wiharjo</p>
+    <p><strong>NIM:</strong> 202601001</p>
+    <p><strong>Program Studi:</strong> Teknologi Rekayasa Multimedia</p>
+    <p><strong>Semester:</strong> 4</p>
+    <p><strong>Email:</strong> raihan.adi@boash.ac.id</p>
+    </div>
+
+    <!-- 4. Bagian Tentang Saya -->
+    <section class="tentang-saya">
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah mahasiswa Teknologi rekayasa multimedia di BOASH University yang berdedikasi dan bersemangat dalam mempelajari pengembangan web serta teknologi AI. Saya senang memecahkan masalah melalui kode dan terus meningkatkan keahlian saya.</p>
+    </section>
+
+    <!-- 5. Daftar Keahlian menggunakan <ul> -->
+    <section class="keahlian">
+    <h2>Keahlian</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+    </ul>
+    </section>
+
+    <!-- 6. Tabel Riwayat Pendidikan -->
+    <section class="riwayat-pendidikan">
+    <h2>Riwayat Pendidikan</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+        <tr>
+            <th>No</th>
+            <th>Jenjang</th>
+            <th>Nama Sekolah</th>
+            <th>Tahun</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>SD</td>
+            <td>SDN 01 Jakarta</td>
+            <td>2012 - 2018</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>SMP</td>
+            <td>SMPN 01 Jakarta</td>
+            <td>2018 - 2021</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>SMA</td>
+            <td>SMAN 01 Jakarta</td>
+            <td>2021 - 2024</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>S1</td>
+            <td>BOASH University</td>
+            <td>2024 - Sekarang</td>
+        </tr>
+        </tbody>
+    </table>
+    </section>
+
+    <br>
+
+    <!-- 7. bagian Link GitHub mahasiswa (terbuka di tab baru) -->
+    <section class="link-github">
+    <p>
+    <a href="https://github.com" target="_blank" rel="noopener noreferrer">Kunjungi GitHub Mahasiswa</a>
+    </p>
+    </section>
+
+    <!-- 8. Tombol "Tampilkan Waktu" -->
+    <button onclick="tampilkanWaktu()">Tampilkan Waktu</button>
+    <p id="waktu"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
